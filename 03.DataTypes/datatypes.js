@@ -15,9 +15,11 @@
     5) null : standalone value | representation of empty value
     6) undefined 
     7) symbol
+    
+    non-primitive data types
     8) object
 
-    Object type :-
+    Object data type :-
     1) An object
     2) An array
     3) A date
