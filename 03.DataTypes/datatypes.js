@@ -7,7 +7,10 @@
 /*
     Data types in js:-
     
-    primitive data type
+    I. primitive data type
+    they work on call-by-value.
+    we receive copy of data
+
     1) Number
     2) Bigint
     3) String
@@ -16,8 +19,12 @@
     6) undefined 
     7) symbol
     
-    non-primitive data types
-    8) object
+    II. non-primitive data types
+    work on call-by-referance.
+    we directly point to the original data.
+    1) object
+    2) Array
+    3) Function
 
     Object data type :-
     1) An object
@@ -25,3 +32,5 @@
     3) A date
 
 */
+
+//JavaScript is a dynamically typed language, but TypeScript is a statically typed language.
