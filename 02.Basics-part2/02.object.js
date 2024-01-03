@@ -7,7 +7,7 @@ if we use constructor to create object...phr jo bnta h usko singleton kehte h
 but if we use literal, then it will have multiple instances
 */
 
-//Object.create constructor way to create object
+//Object.create :  constructor way to create object
 
 //OBJECT LITERALS
 
