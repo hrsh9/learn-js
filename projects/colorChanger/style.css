@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    color: grey;
+}
+#white{
+    background-color: white;
+}
+#black{
+    background-color: black;
+}
+#goldenrod{
+    background-color: goldenrod;
+}
+#aquamarine{
+    background-color: aquamarine;
+}
+#lightgray{
+    background-color: lightgray;
+}
+#yellowgreen{
+    background-color: yellowgreen;
+}
+#indigo{
+    background-color: indigo;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box-container{
+    display: flex;
+}
