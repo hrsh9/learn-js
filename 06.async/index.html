@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async</title>
+</head>
+<body>
+
+    <h1>My Name : </h1>
+    <button id="stop">STOP</button>
+    
+    <script>
+        const sayMyName = () => {
+            console.log('harsh')
+        }
+        const changeText = () => {
+            document.querySelector('h1').innerHTML = 'Say My Name';
+        }
+        setTimeout(sayMyName, 3000)
+        
+        const dateNow = (str) => {
+            console.log(str, Date.now());
+        }
+        const intervalId = setInterval(dateNow, 1000, 'hello');
+        clearInterval(intervalId);
+    </script>
+</body>
+</html>
